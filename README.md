@@ -1,13 +1,12 @@
 # Milandr MCU 1986x CMSIS Pack Repository
 
-It's an unofficial repository for [GNU ARM Eclipse](http://gnuarmeclipse.github.io/plugins/packs-manager/).<br>
-The package that is maintained here – [`Milandr.MDR1986BExx.1.4.2.pack`](https://raw.githubusercontent.com/in4lio/mdr1986x-pack-repo/master/Milandr.MDR1986BExx.1.4.2.pack) also compatible with Keil MDK 5.
+It's an unofficial repository for [GNU MCU Eclipse][packs-manager].
+
+The package that is maintained here – [`Milandr.MDR1986BExx.1.4.2.pack`][pack] also compatible with Keil MDK 5.
 
 #### How to install the package (Eclipse)
 
-- [Add](http://gnuarmeclipse.github.io/plugins/packs-manager/#configuration) Milandr MCU repository,
-specifying the path to
-the [`index.pidx`](https://raw.githubusercontent.com/in4lio/mdr1986x-pack-repo/master/index.pidx) file:
+- [Add][packs-manager-config] Milandr MCU repository, specifying the path to the [`index.pidx`][index.pidx] file:
 ```
 Eclipse Menu → Window → Preferences → C/C++ → Packages → Repositories → Add...
 
@@ -15,8 +14,7 @@ Type       CMSIS Pack
 Name       Milandr
 URL        https://raw.githubusercontent.com/in4lio/mdr1986x-pack-repo/master/index.pidx
 ```
-  For the old versions of Packs Manager you should use
-  [`index.idx`](https://raw.githubusercontent.com/in4lio/mdr1986x-pack-repo/master/index.idx) file.
+For the old versions of Packs Manager you should use [`index.idx`][index.idx] file.
 
 - [Open](http://gnuarmeclipse.github.io/plugins/packs-manager/#the-packs-perspective) the Packs perspective
 and [install](http://gnuarmeclipse.github.io/plugins/packs-manager/#pack-install) the `MDR1986BExx` package
@@ -63,7 +61,7 @@ cd mdr1986x-pack-repo
 git submodule update --init --recursive
 ```
 
-- Update this repository and submodules if they are not cloned just now:
+- Or, update this repository and submodules if they are not cloned just now:
 
 ```
 cd mdr1986x-pack-repo
@@ -76,3 +74,9 @@ git submodule foreach git pull origin master
 ```
 python .\build.py
 ```
+
+[packs-manager]:        https://gnu-mcu-eclipse.github.io/plugins/packs-manager/
+[packs-manager-config]: https://gnu-mcu-eclipse.github.io/plugins/packs-manager/#configuration
+[pack]:                 https://raw.githubusercontent.com/in4lio/mdr1986x-pack-repo/master/Milandr.MDR1986BExx.1.4.2.pack
+[index.pidx]:           https://raw.githubusercontent.com/in4lio/mdr1986x-pack-repo/master/index.pidx
+[index.idx]:            https://raw.githubusercontent.com/in4lio/mdr1986x-pack-repo/master/index.idx
