@@ -15,7 +15,7 @@
   </releases>
 
   <devices>
-    <family Dfamily="Milandr" Dvendor="Milandr:99">
+    <family Dfamily="MDR1986" Dvendor="Milandr:99">
       <subFamily DsubFamily="Cortex-M3">
         <!-- MDR1986BE91 -->
         <device Dname="MDR1986BE91">
