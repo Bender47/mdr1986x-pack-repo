@@ -75,7 +75,7 @@ git submodule foreach git pull origin master
 - Run the build script with Python 2:
 
 ```
-python .\build.py
+python build.py
 ```
 
 [milandr-mdr1986x]:      http://ic.milandr.ru/products/mikrokontrollery_i_protsessory/32_razryadnye_mikrokontrollery/
