@@ -7,7 +7,7 @@
 
   <releases>
     <release version="1.4.2">
-      20180118-0009, Updated emdr1986x-std-per-lib
+      20180203-0010, Updated emdr1986x-std-per-lib
     </release>
     <release version="1.4.1">
       20160208-0000, Initial release, based on https://github.com/eldarkg/emdr1986x-std-per-lib and https://github.com/eldarkg/emdr1986x-std-per-lib-doc
