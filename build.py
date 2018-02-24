@@ -41,8 +41,8 @@ copylist = (
 
 #  @ - remove according to the list of files
 dellist = (
-    'IDE/keil/SFD/MDR1901VC1T.SFR',
-    'IDE/keil/SFD/MDR1901VC1T.svd',
+    'IDE/keil/SFR/MDR1901VC1T.SFR',
+    'IDE/keil/SVD/MDR1901VC1T.svd',
     'JFlash/.git',
     '@Example_Projects_Eclipse/.gitignore',
     '@Example_Projects_Eclipse/mdr1986x_RTT/.gitignore',
