@@ -109,7 +109,10 @@ for op in dellist:
         if os.path.isdir( f ):
             remove_tree( f )
         else:
-            os.remove( f )
+            try:
+                os.remove( f )
+            except OSError:
+                pass
 
 print 'Zip to', pack
 shutil.make_archive( pack, format='zip', root_dir=BUILD_DIR )
